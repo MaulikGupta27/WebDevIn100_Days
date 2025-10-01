@@ -158,6 +158,13 @@
       min-height: 80vh; /* Ensure enough height for proper centering */
     }
 
+    /* Fix: always visible regardless of theme or .loaded class */
+.cosmic-hero {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
     .hero-content {
       position: relative;
       z-index: 2;
@@ -915,6 +922,7 @@
       <ul class="nav-links">
         <li><a href="index.html" class="nav-link">Home</a></li>
         <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
         <li><a href="contributors.html" class="nav-link active">Contributors</a></li>
       </ul>
       
@@ -937,6 +945,7 @@
       <ul class="mobile-nav-links">
         <li><a href="index.html" class="mobile-nav-link">Home</a></li>
         <li><a href="index.html#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
         <li><a href="contributors.html" class="mobile-nav-link">Contributors</a></li>
       </ul>
     </div>
@@ -983,6 +992,12 @@
       </div>
     </div>
   </section>
+<!-- Scroll to Top Button -->
+  <button class="scroll-top" title="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+    </svg>
+  </button>
 
   <!-- Footer -->
   <footer class="modern-footer">
@@ -1163,7 +1178,7 @@
       const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
       const mobileNav = document.querySelector('.mobile-nav');
       const themeToggle = document.querySelector('.theme-toggle');
-      
+
       // Mobile menu toggle
       if (mobileMenuBtn && mobileNav) {
         mobileMenuBtn.addEventListener('click', () => {
@@ -1173,7 +1188,7 @@
       }
       
       // Theme toggle functionality
-      if (themeToggle) {
+         if (themeToggle) {
         // Get current theme from localStorage or default to 'dark'
         const currentTheme = localStorage.getItem('theme') || 'dark';
         document.documentElement.setAttribute('data-theme', currentTheme);
@@ -1214,8 +1229,8 @@
     
     // Update theme toggle icon
     function updateThemeIcon(theme) {
-      const themeToggle = document.querySelector('.theme-toggle');
-      if (!themeToggle) return;
+     // const themeToggle = document.querySelector('.theme-toggle');
+     // if (!themeToggle) return;
       
       const iconSvg = themeToggle.querySelector('svg');
       
@@ -1238,6 +1253,7 @@
     document.addEventListener('DOMContentLoaded', function () {
       fetchContributors();
       initNavigation();
+      setTheme(getTheme());
       
       // Add cosmic loading effect
       setTimeout(() => {
@@ -1245,5 +1261,6 @@
       }, 100);
     });
   </script>
+  <script src="./scripts/app.js"></script>
 </body>
 </html> 

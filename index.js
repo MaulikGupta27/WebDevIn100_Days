@@ -101,6 +101,7 @@ function updateNavbar() {
 
 // Populate the table with project data
 //function fillTable() {
+<<<<<<< HEAD
 //const data = [
 // ["Day 1", "To-Do List", "/public/Day-1_TodoList/index.html"],
 // ["Day 2", "Digital Clock", "/public/Day-2_digital_clock/digitalclock.html"],
@@ -131,6 +132,38 @@ function updateNavbar() {
 //["Day 28", "Target Reflex Test", "public/Day-28_Target_Reflex_Test/index.html"],
 //["Day 29", "Snake And Ladder Game", "public/Snake-and-Ladder-Game/index.html"],
 //["Day 30", "Note Taker", "public/Day-42_NoteTaker/index.html"],
+=======
+  //  const data = [
+       // ["Day 1", "To-Do List", "/public/Day-1_TodoList/index.html"],
+       // ["Day 2", "Digital Clock", "/public/Day-2_digital_clock/digitalclock.html"],
+       // ["Day 3", "ASCII Art Generator", "/public/Day-3_AsciiArtGenerator/index.html"],
+       // ["Day 4", "Password Strength Visualizer", "/public/Day-4_password_visualizer/index.html"],
+       // ["Day 5", "Physics Simulation", "/public/Day-5_physics_simulation/index.html"],
+       // ["Day 6", "Quote Generator", "/public/Day-6_QuoteGenerator/index.html"],
+       // ["Day 7", "Character Word Counter", "/public/Day-7_CharacterWordCounter/index.html"],
+        //["Day 8", "Dice Roll Simulator", "/public/Day-8_DiceRollSimulator/index.html"],
+        //["Day 9", "Guess My Number", "/public/Day-9_Guess_My_Number/index.html"],
+        //["Day 10", "Brick Breaker", "/public/Day-10_Neon_Brick_Breaker/index.html"],
+        //["Day 11", "WeatherApp", "/public/Day-11_WeatherApp/index.html"],
+        //["Day 12", "Countdown Banner", "https://countdown-banner.vercel.app/"], /* folder Not there */
+        //["Day 13", "Coin Flip Heads/Tails", "/public/Day-13_Coin_Flip/index.html"],
+        //["Day 14", "E-waste Management Hub", "https://e-waste-management-hub.netlify.app/"],
+        //["Day 15", "Currency Converter", "/public/Day-15_Currency_Converter/index.html"],
+        //["Day 16", "Random User Generator", "/public/Day-16_Random_User_Generator/index.html"],
+        //["Day 17", "Image Search App", "/public/Day-17_Image_Search_App/index.html"],
+        //["Day 18", "WaterMedic", "https://github.com/dipmanmajumdar/WaterMedic"], /* folder Not there */
+        //["Day 19", "URL Shortener", "https://github.com/ANTIK-007/URL-Shortener"], /* folder Not there */
+        //["Day 20", "TicTacToe Game", "/public/Day-20_tictactoe/index.html"],
+        //["Day 21", "Candy Crush", "public/Day-21_candycrush/candy_crush.html"],
+        //["Day 22", "QR Code Generator", "/public/Day-22_QRCodeGenerator/index.html"],
+        //["Day 23", "Palette Generator", "public/Day-22_Palette_generator/index.html"],
+        //["Day 24", "Palette Generator", "public/Day-22_Palette_generator/index.html"],
+        //["Day 25", " Portfolio", " https://priyacodesarts.netlify.app/"],
+        //["Day 26", "GiggleBits", "public/GiggleBits/index.html"],
+        //["Day 28", "Target Reflex Test", "public/Day-28_Target_Reflex_Test/index.html"],
+        //["Day 29", "Snake And Ladder Game", "public/Snake-and-Ladder-Game/index.html"],
+        //["Day 30", "Note Taker", "public/Day-42_NoteTaker/index.html"],
+>>>>>>> ef5ff9f6c974f6080e14c4cbb63e79b01abdad2a
 
 //["Day 31", "👾Alien Hunt", "public/Day-31/index.html"],
 //["Day 32","Rock Paper Scissor Game" ,"public/Day-23_RockPaperScissor/index.html" ],
@@ -158,10 +191,17 @@ function updateNavbar() {
 
 //["Day 58", "Budget Tracker", "public/Budget-Tracker/index.html"],
 
+<<<<<<< HEAD
 //["Day 70", "Memory Game App", "./public/Memory Game App/index.html"],
 
 // ["Day 75", "MyPaint", "public/day75-mypaint/index.html"],
 
+=======
+        //["Day 70", "Memory Game App", "./public/Memory Game App/index.html"],
+  
+        // ["Day 75", "MyPaint", "public/day75-mypaint/index.html"],
+        
+>>>>>>> ef5ff9f6c974f6080e14c4cbb63e79b01abdad2a
 // See in Script Folder in app.js (where you can add your poject)];
 
 const tbody = document.getElementById("tableBody");
